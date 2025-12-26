@@ -1,0 +1,15 @@
+CJ-R1/
+├── checkpoints/
+│   ├── sft_gold_mpl_small_v3/
+│   └── dcda_sota_final_v3/
+├── scripts/
+│   ├── app_cj_r1.py          # Gradio Demo
+│   ├── chat_cli.py           # 终端 Demo（可选）
+│   ├── train_dcda_v3.py      # DCDA 训练脚本（展示用）
+│   └── sft_train_dora_flashattn.py  # SFT 训练脚本（展示用）
+               debug_qwen_retrieval  索引评估
+├── data/
+│   ├── teacher_cn_multistep_longthink_sample.jsonl  # 抽样小文件
+│   ├── gold_sft_mpl_sample.jsonl
+│   └── indexes_sample/       # 一两个 small index+meta 示例
+└── requirements.txt

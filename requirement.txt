@@ -1,0 +1,15 @@
+torch>=2.0
+transformers>=4.30.1
+peft>=0.6.0
+accelerate>=0.21.0
+gradio>=4.0.0
+faiss-cpu>=1.7.4
+sentencepiece  # 如果底座模型需要
+safetensors
+
+
+
+sft：
+wandb
+flash-attn          # 如果要重新启用 Flash Attention 2（需对应 CUDA & PyTorch 版本）[web:6][web:12]
+datasets             # 如果用 HF Datasets 管数据
